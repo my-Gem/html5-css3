@@ -1,0 +1,64 @@
+*{
+		margin:0;
+		padding:0;
+	}
+	body{
+		background:#0E0E0E;
+	}
+	header{
+		background:#FFFFFF;
+		margin:25% auto;
+		height:50%;
+		width:842px;
+			
+	}
+	nav,nav .my_aside{
+		border:1px solid #999;
+		padding:20px;
+	}
+	nav .aside1{
+		width:100px;
+		border:1px solid #999;
+		background:#eee;
+		padding:20px 20px;
+		font-size:10px;
+	}
+	nav .aside1 span{
+		
+		display:inline-block;
+		margin-left:18px;
+		vertical-align:top;
+		background:red;
+	}
+	nav .aside1 div{
+		
+		vertical-align:middle;
+		display:inline-block;
+		padding:20px 20px;
+		background:#eee;
+		border:1px solid #999;
+	}
+	nav .aside2{
+		display:inline-block;
+		border:1px solid #999;
+		margin:20px;
+		padding:20px;		
+	}
+	nav .aside2 p{
+		font-size:10px;
+	}
+	nav .aside3{
+		
+		border:1px solid #999;
+		padding:20px;
+		font-size:10px;
+	}
+		nav .aside3 div{
+		padding:20px;
+		background:#eee;
+		border:1px solid #999;
+		margin-top:20px;
+	}
+	nav .aside1,nav .aside2,nav .aside3{
+		display:inline-block;
+	}
