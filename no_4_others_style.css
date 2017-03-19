@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-19 17:10:34
+ * @version $Id$
+ */*{margin: 0px,padding:0px;}
+ .box{height: 200px;width: 400px; margin: auto; 
+ ;background-color: #ccc;position: absolute;top: 0; left: 0; bottom: 0; right: 0;}
+
+ .inner1{width: 50px;
+height: 50px;
+border-radius: 0 0 50px 0;
+background-color: 
+#fcca29;}
+.inner2{width: 50px;
+height: 50px;
+border-radius: 50px 0 0px 0;
+background-color: 
+#fcca29;position: absolute;bottom: 0px;right: 0px;}
