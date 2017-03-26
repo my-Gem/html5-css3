@@ -1,0 +1,401 @@
+  *{
+		padding:0;
+		margin:0;
+		font-size:12px;
+		font-family:"黑体";
+	}
+	.yahei{
+		font-family:"微软雅黑";
+	}
+	body{
+		background:#5D5D5D;
+	}
+	div{
+		width:980px;
+		height:1386px;
+		background:#ffffff;
+		margin:0 auto;
+		overflow:auto;
+	}
+	header,section,article,.cont{
+		margin:0 44px 10px 44px;
+	}
+	header div{
+		width:110px;
+		height:15px;
+		color:#ffffff;
+		text-align:center;
+		background:#D55D5C;
+		padding-top:44px;
+	}
+	header aside{
+		color:#d45d5c;
+		padding-top:44px;	
+	}
+	header footer{
+		clear:both;
+		width:892px;
+		height:2px;
+		background:#938e8c;
+	}
+	section nav{
+		position:relative;
+		width:641px; 
+		height:301px;
+		overflow:hidden;
+	}
+	section nav img,section aside .myspan{
+		display:inline-block;
+	}
+	section nav div{
+		position:absolute;
+		width:191px;
+		height:301px;
+		top:0;
+		z-index:1;
+	}
+	.box_1{
+		left:0;
+		background:#87A687;
+		opacity: 0.3;
+	}
+	.box_2{
+		right:0;
+		background:#E4B6B6;
+		opacity: 0.3;
+	}
+	section nav,header div,article div,
+	.cont .right .tiao_4 .tiao_5 p{
+		float:left;
+	}
+	section aside,header aside{
+		float:right;
+	}
+	.box_3{
+		width:203px;
+		height:2px;
+		background:#cc8091;
+	}
+	section aside .font_1 a{
+		font-size:24px;
+		color:#000000;
+	}
+	.font_5{
+		margin-top:40px;
+	}
+	.font_2{
+		color:#676767;
+		font-family:"楷体";
+	}
+	.font_3{
+		margin-top:10px;
+	}
+	.font_4 a{
+		font-size:116px;
+		color:#75b86b;
+	}
+	section {
+		overflow:auto;
+	}
+	.myspan a{
+		font-size:55px;
+		color:#cc8091;
+	}
+	.myspan .font_6{
+		font-size:21px;
+	}
+	.myspan .font_7{
+		font-size:12px !important;
+	}
+	.content{
+		width:892px;
+		height:250px;
+	}
+	.content div p{
+		margin-bottom:16px;
+	}
+	.content div .mya{
+		width:38px;
+		display:block;
+		color:#418c59;
+		font-size:16px;
+		margin-bottom:16px;
+	}
+	.content .p2 .qq{
+		color:#d2994f;
+	}	
+	.content .p3 .tt{
+		color:#cc7680;
+	}	
+	.content .p2 {
+		background:transparent;
+	}	
+	.p1,.p2,.p3{
+		width:203px;
+		height:250px;
+		margin-right:16px;
+	}
+	.p2 p{
+		opacity: 0.7;
+	}
+	.p4 a{
+		opacity: 0.7;
+	}
+	.p2 p a{
+		color:#231815;
+	}
+	.p3 p a,.p4{
+		color:#cd4a48;
+	}
+	.p1 p a{
+		font-family:"宋体";
+		color:#767777;
+	}
+	.left{
+		width:415px;
+		float:left;
+	}
+	.left p{
+		margin-bottom:16px;
+	}
+	.cont .font_8 a{
+		font-size:72px;
+		color:#f5e327;
+	}
+	.cont .font_8 .sel{
+		font-size:42px;
+		color:#11456b;
+		margin-left:20px;
+	}
+	.cont .font_9 .sel{
+		font-size:33px !important;
+	}
+	.cont .left .tiao,.cont .left .sel_2{
+		width:415px;
+		height:2px;
+		background:#11456b;
+	}
+	.cont,.cont .left {
+		width:415px;
+		height:593px;
+	}
+	.cont .p6{
+		width:415px;
+		height:220px;
+	}
+	.cont .p7{
+		width:415px;
+		height:393px;
+		position:relative;
+	}
+	.cont .p7 .myspan_1{
+		width:70px;
+		height:70px;
+		display:inline-block;
+	}
+	.cont .p7 .myspan_2{
+		width:336px;
+		height:70px;
+		display:inline-block;
+	}
+	.cont .p7 .myspan_1 a{
+		font-size:70px;
+		color:#f5e327;
+	}
+	.cont .p7 .myspan_2 a,.cont .p7 p{
+		font-size:12px;
+		color:#767777;
+		font-family:"宋体";
+	}
+	.cont .p7 p{
+		margin-bottom:16px;
+	}
+	.cont .p7 .p8{
+		width:295px;
+	}
+	.cont .p7 .p9{
+		text-indent:2em;
+	}
+	.cont .p7 img{
+		width:100px;
+		height:180px;
+		float:right;
+		margin-left:20px 0 20px 20px;
+		position:absolute;
+		right:0;
+		top:100px;
+	}
+	.cont .right{
+		width:477px;
+		height:593px;
+		float:right;
+		position:relative;
+	}
+	.cont .right img{
+		width:458px;
+		height:275px;
+		float:right;
+	}
+	.cont .right .small_1{
+		width:458px;
+		height:61px;
+		position:absolute;
+		top:214px;
+		right:0;
+	}
+	.cont .right .tiao_2{
+		width:3px;
+		height:44px;
+		background:#72b16a;
+		margin:6px 30px;
+		float:left;
+	}
+	.cont .right .tiao_3{
+		width:395px;
+		height:44px;
+		padding-top:6px;
+		padding-bottom:6px;
+		float:left;
+	}
+	.cont .right div .tiao_3 .cc{
+		font-size:26px;
+		color:#fffffff;
+		letter-spacing:140%;
+	}
+	.cont .right div .tiao_3 .dd{
+		color:#72b16a;
+		margin-left:10px;
+	}
+	.cont .right .tiao_4{
+		width:459px;
+		height:318px;
+		background:#EEEED6;
+		float:right;
+	}
+	.cont .right .tiao_4 .pppp{
+		margin:20px 20px 20px 40px;;
+	}
+	.cont .right .tiao_4 .pppp .sel_2,.cont .right .tiao_4 .pppp .sel_3{
+		font-size:16px;
+		color:#5a5b5b;
+		text-align:left;
+		font-family:"宋体";
+	}
+	.cont .right .tiao_4 .pppp .sel_3{
+		font-size:12px;
+		text-align:right !important;
+	}
+	.cont .right .tiao_4 .tiao_5{
+		background:#D55D5C;
+	}
+	.cont .right .tiao_4 .tiao_5,
+	.cont .right .tiao_4 .tiao_6
+	{
+		width:260px;
+		height:160px;
+		float:left;
+	}
+	.cont .right .tiao_4 .tiao_5 .p10 .ee{
+		font-size:110px;
+		color:#ffffff;
+	}
+	.cont .right .tiao_4 .tiao_5 p .myaa{
+		font-size:21px;
+		color:#ffffff;
+		font-family:"宋体";
+	}
+	.cont .right .tiao_4 .tiao_5 p .myaa_2{
+		font-size:12px;
+	}
+	.cont .right .tiao_4 .tiao_5 .p11{
+		margin-bottom:24px;
+		margin-top:30px;
+	}
+	.cont .right .tiao_4 .tiao_5 .p12{
+		margin-top:-24px;
+	}
+	.cont .right .tiao_4 .tiao_5 .p13{
+		margin-bottom:6px;
+	}
+	.cont .right .tiao_4 .tiao_5 p{
+		width:163px;
+	}
+	.cont .right .tiao_4 .tiao_6{
+		width:2px;
+		height:86px;
+		margin-top:30px;
+	}
+	.cont .right .tiao_4 .tiao_5 .p10{
+		width:65px;
+		height:145px;
+		margin-right:10px;
+		margin-left:10px;
+	}
+	.cont .right .tiao_4 .tiao_6{
+		margin-right:10px;
+	}
+	.cont .right .tiao_4 .tiao_7 p{
+		width:177px;
+		height:140px;
+		padding:10px;	
+	}
+	.cont .right .tiao_4 .tiao_7{
+		width:197px;
+		height:160px;
+		float:right;
+		background:#EEEED6;
+	}
+	.cont .right .tiao_4 .tiao_7 p .gg{
+		font-size:14px;	
+		color:#d45d5c;
+		font-family:"黑体";
+		display:inline-block;
+		margin-bottom:16px;
+	}
+	.cont .right .tiao_4 .tiao_7 p .hh{
+		margin-bottom:0;
+	}
+	.cont .right .tiao_4 .end{
+		width:458px;
+		height:160px;
+	}
+	.cont .tiao_8{
+		width:892px;
+		height:18px;
+		margin-top:44px;
+	}
+	.cont{
+		width:892px;
+		height:655px;
+	}
+	.cont .tiao_8 .tiao_9{
+		width:892px;
+		height:1px;
+		background:#938e8c;
+	}
+	.cont .tiao_8 .tiao_10{
+		width:892px;
+		height:17px;
+		text-align:right;
+		font-family:"黑体";
+		color:#d45d5c;	
+	}
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
